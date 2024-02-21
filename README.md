@@ -24,13 +24,18 @@ The following are key results that can be drawn from the results computed by the
 <img src="https://github.com/molleighH/credit-risk-classification/blob/main/Credit_Risk/Resources/original_data_classification_report.png" width="600" height="300" border="10"/>
 </p>
 
-* For the original data, the accuracy score is 
-* For the original data, the precision score is 
-* For the original data, the recall score is 
+* For the original data, the accuracy score is 99%, which reveals that the model has been highly accurate. 
+* For the original data, the precision score for health loans is 100%. The precision for high-risk loans is 87%; therefore, the remaining 13% are false-positives. Out of all the loans that the model predicted would be high-risk, only 87% were actually high-risk.
+* For the original data, high-risk loans have a recall score is 89%; therefore, the remaining 11% are false negatives. Out of all the loans that actually were high-risk, the model only predicted this outcome correctly for 89% of those high-risk loans. 
 
 <p align="center">
 <img src="https://github.com/molleighH/credit-risk-classification/blob/main/Credit_Risk/Resources/oversampled_data_classification_report.png" width="600" height="300" border="10"/>
 </p>
+* For the oversampled data, the accuracy score is 100%, which reveals that the model is now even more accurate. 
+* For the oversampled data, the precision for high-risk loans remains 87%; therefore, the remaining 13% are false-positives. Out of all the loans that the model predicted would be high-risk, only 87% were actually high-risk.
+* For the oversampled data, high-risk loans have a recall score is 100%; therefore, their are no false negatives. Out of all the loans that actually were high-risk, the model predicted this outcome correctly for 100% of those high-risk loans. 
+* Additionally, for the oversampled data, the f1-score has increased by 5%, which indicates that the model is now more precise.
 
-3. <ins>A summary:</ins> Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
-
+3. ## Summary
+Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
+ * The Logistic Regression Model created on the original data performed slightly worse than the model created on the oversampled data. As a result, oversampling can be seen as a helpful tool when trying to create a successful model. This model is highly accurate; however, I would not recommend this model, because there is still room for improvement, because the precision score remained the same (at 87%), and as a result, the f1-score may have increased by 5%, but 93% f1-score for the oversampled data has not reached the classic "95%" mark that most companies must meet in order to move forward. 
