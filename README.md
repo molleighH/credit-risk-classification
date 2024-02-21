@@ -1,5 +1,6 @@
 # Credit Risk Classification
 ## Overview of the Analysis 
+Explain the purpose of this analysis:
 * The purpose of this activity is to use various techniques to train and evaluate a model based on loan risk. The activity uses a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers and classify the credit risk predictions. 
 * The target finiancial information in the data is the loan status. The features in the financial data that are used to predict the loan status are loan size, interest rate, borrower income,  debt to income ratio, number of accounts, derogatory marks and total debt. 
 * For the target values of <samp>loan_status</samp> there are two variables which I have tried to predict. The first set of variables have a value of '0' (value count of healthy loans = 18759) and these indicate that the loan is healthy. The second set of variables have a value of '1' (value count of unhealthy loans = 625) and these mean that the loan has a high risk of defaulting.
@@ -12,13 +13,24 @@
 5. Evaluate the model's performance by calculating accuracy scores, confusion matrix, and classification report.
 6. The first method used in this case is the LogisticRegression model on the original fitted data. As the data was highly overweighted towards one of the target variables (healthy loans), therefore, RandomOverSampler was used to reduce the imbalances & LogisticRegression was then applied to the oversampled data.
 
-## Results : Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
+## Results
+Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
+
+* Machine Learning Model 1 - Original Data - <ins>Logistic Regression</ins>:
+
+The following are key results that can be drawn from the results computed by the Logistic Regression model that was performed on the original fitted data:
 
 <p align="center">
 <img src="https://github.com/molleighH/credit-risk-classification/blob/main/Credit_Risk/Resources/original_data_classification_report.png" width="600" height="300" border="10"/>
 </p>
 
+* For the original data, the accuracy score is 
+* For the original data, the precision score is 
+* For the original data, the recall score is 
 
+<p align="center">
+<img src="https://github.com/molleighH/credit-risk-classification/blob/main/Credit_Risk/Resources/oversampled_data_classification_report.png" width="600" height="300" border="10"/>
+</p>
 
 3. <ins>A summary:</ins> Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
