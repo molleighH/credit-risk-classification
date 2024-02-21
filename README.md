@@ -40,6 +40,6 @@ The following are key results that can be drawn from the results computed by the
   * For the oversampled data, high-risk loans have a recall score is 100%; therefore, their are no false negatives. Out of all the loans that actually were high-risk, the model predicted this outcome correctly for 100% of those high-risk loans. 
   * Additionally, for the oversampled data, the f1-score has increased by 5%, which indicates that the model is now more precise.
 
-3. ## Summary
+## Summary
 Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
  * The Logistic Regression Model created on the original data performed slightly worse than the model created on the oversampled data. As a result, oversampling can be seen as a helpful tool when trying to create a successful model. This model is highly accurate; however, I would not recommend this model, because there is still room for improvement, because the precision score remained the same (at 87%), and as a result, the f1-score may have increased by 5%, but 93% f1-score for the oversampled data has not reached the classic "95%" mark that most companies must meet in order to move forward. 
