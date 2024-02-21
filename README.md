@@ -15,7 +15,7 @@
 ## Results : Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 
 <p align="center">
-<img src="https://github.com/molleighH/credit-risk-classification/blob/main/Credit_Risk/Resources/original_data_classification_report.png" width="400" height="300" border="10"/>
+<img src="https://github.com/molleighH/credit-risk-classification/blob/main/Credit_Risk/Resources/original_data_classification_report.png" width="500" height="300" border="10"/>
 </p>
 
 
