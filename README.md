@@ -28,6 +28,9 @@ The following are key results that can be drawn from the results computed by the
 * For the original data, the precision score for health loans is 100%. The precision for high-risk loans is 87%; therefore, the remaining 13% are false-positives. Out of all the loans that the model predicted would be high-risk, only 87% were actually high-risk.
 * For the original data, high-risk loans have a recall score is 89%; therefore, the remaining 11% are false negatives. Out of all the loans that actually were high-risk, the model only predicted this outcome correctly for 89% of those high-risk loans. 
 
+
+* Machine Learning Model 2 - Oversampled Data - <ins>Logistic Regression</ins>:
+
 <p align="center">
 <img src="https://github.com/molleighH/credit-risk-classification/blob/main/Credit_Risk/Resources/oversampled_data_classification_report.png" width="600" height="300" border="10"/>
 </p>
