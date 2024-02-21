@@ -16,7 +16,7 @@ Explain the purpose of this analysis:
 ## Results
 Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 
-* Machine Learning Model 1 - Original Data - <ins>Logistic Regression</ins>:
+  * Machine Learning Model 1 - Original Data - <ins>Logistic Regression</ins>:
 
 The following are key results that can be drawn from the results computed by the Logistic Regression model that was performed on the original fitted data:
 
@@ -29,7 +29,7 @@ The following are key results that can be drawn from the results computed by the
 * For the original data, high-risk loans have a recall score is 89%; therefore, the remaining 11% are false negatives. Out of all the loans that actually were high-risk, the model only predicted this outcome correctly for 89% of those high-risk loans. 
 
 
-* Machine Learning Model 2 - Oversampled Data - <ins>Logistic Regression</ins>:
+  * Machine Learning Model 2 - Oversampled Data - <ins>Logistic Regression</ins>:
 
 <p align="center">
 <img src="https://github.com/molleighH/credit-risk-classification/blob/main/Credit_Risk/Resources/oversampled_data_classification_report.png" width="600" height="300" border="10"/>
