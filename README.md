@@ -1,7 +1,7 @@
 # Credit Risk Classification
 ## Overview of the Analysis 
-* The purpose of this activity is to use various techniques to train and evaluate a model based on loan risk. The activity uses a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers and classify the credit risk predictions. **
-* The target finiancial information in the data is the loan status. The features in the financial data that are used to predict the loan status are loan size, interest rate, borrower income,  debt to income ratio, number of accounts, derogatory marks and total debt. **
+* The purpose of this activity is to use various techniques to train and evaluate a model based on loan risk. The activity uses a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers and classify the credit risk predictions. 
+* The target finiancial information in the data is the loan status. The features in the financial data that are used to predict the loan status are loan size, interest rate, borrower income,  debt to income ratio, number of accounts, derogatory marks and total debt. 
 * For the target values of <samp>loan_status</samp> there are two variables which I have tried to predict. The first set of variables have a value of '0' (value count of healthy loans = 18759) and these indicate that the loan is healthy. The second set of variables have a value of '1' (value count of unhealthy loans = 625) and these mean that the loan has a high risk of defaulting.
 
 ### The machine learning process used to perform the analysis has the following stages: 
@@ -15,7 +15,7 @@
 ## Results : Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 
 <p align="center">
-<img src="https://github.com/molleighH/credit-risk-classification/blob/main/Credit_Risk/Resources/original_data_classification_report.png" width="200" height="100" border="10"/>
+<img src="https://github.com/molleighH/credit-risk-classification/blob/main/Credit_Risk/Resources/original_data_classification_report.png" width="400" height="300" border="10"/>
 </p>
 
 
